@@ -1,0 +1,16 @@
+package com.hornetdevelopment.sample;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * Created by steve on 4/21/17.
+ */
+@SpringBootApplication
+public class SampleApp {
+
+    public static void main(String[] args){
+        SpringApplication.run(SampleApp.class, args);
+    }
+
+}
